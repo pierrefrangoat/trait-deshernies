@@ -3,50 +3,6 @@
 <meta content="text/html; charset=UTF-8" http-equiv="content-type">
 <meta charset="utf-8">
 <title>Lecteur thématique</title>
-<style>
-  .barbie-bow-btn {
-    display: inline-block;
-    position: relative;
-    padding: 1.5rem 3rem;
-    background: linear-gradient(to right, #ff69b4, #ff1493);
-    color: white;
-    font-size: 1.4rem;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 50px;
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
-    margin: 3rem auto;
-    transition: all 0.3s ease;
-    text-align: center;
-  }
-
-  .barbie-bow-btn::before,
-  .barbie-bow-btn::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    background: #ff69b4;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    box-shadow: inset 0 0 10px rgba(255,255,255,0.6);
-  }
-
-  .barbie-bow-btn::before {
-    left: -25px;
-  }
-
-  .barbie-bow-btn::after {
-    right: -25px;
-  }
-
-  .barbie-bow-btn:hover {
-    background: linear-gradient(to right, #ff1493, #e91e63);
-    transform: scale(1.05) rotate(-1deg);
-  }
-</style>
 
 <style>
         body { margin: 0; font-family: Georgia, serif; display: flex; height: 100vh; background-color: #f8f8f8; }
@@ -255,7 +211,55 @@ body {
 <div class="main-header">
 <h1>Interface numérique du <em>Traité des hernies</em> de Pierre Franco</h1>
 </div><div class="main-wrapper"><div class="sidebar">
-<h2>Chapitres par thème</h2>
+
+<style>
+  .barbie-bow-btn {
+    display: inline-block;
+    position: relative;
+    padding: 1.5rem 3rem;
+    background: linear-gradient(to right, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
+    margin: 3rem auto;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+  .barbie-bow-btn::before,
+  .barbie-bow-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: #ff69b4;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.6);
+  }
+
+  .barbie-bow-btn::before {
+    left: -25px;
+  }
+
+  .barbie-bow-btn::after {
+    right: -25px;
+  }
+
+  .barbie-bow-btn:hover {
+    background: linear-gradient(to right, #ff1493, #e91e63);
+    transform: scale(1.05) rotate(-1deg);
+  }
+</style>
+
+<a class="barbie-bow-btn" href="downloads.html">🎀 Liens vers les documents 🎀</a>
+
+<h2>Chapitres par thèmes</h2>
 <div class="menu-item">Anatomie</div>
 <div class="submenu">
 <div class="submenu-item" onclick="showChapter('chap_18')">Anatomie [considérations éthiques] </div>
